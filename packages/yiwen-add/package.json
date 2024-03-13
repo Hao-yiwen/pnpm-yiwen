@@ -1,6 +1,6 @@
 {
   "name": "@yiwen/test-add",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,5 @@
   "dependencies": {
     "lodash": "^4.17.21"
   },
-  "gitHead": "1b939498188e0ad19aa2f1ca66c2ae95a7bf3bb7"
+  "gitHead": "dd1c5dbc76e3d84c1ca8d7046c72a1b824dbabc3"
 }

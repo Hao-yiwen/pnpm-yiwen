@@ -15,7 +15,7 @@ importers:
   packages/demo:
     dependencies:
       '@yiwen/test-add':
-        specifier: workspace:^
+        specifier: ^0.0.7
         version: link:../yiwen-add
 
   packages/yiwen-add:
