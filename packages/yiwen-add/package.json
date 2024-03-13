@@ -8,8 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "gitHead": "c89aaf5bdb492e6a6132f7face463063ab087962"
 }
