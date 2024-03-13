@@ -1,0 +1,8 @@
+40 error Error: Command failed with exit code 128: git tag v0.0.4 -m v0.0.4
+40 error fatal: tag 'v0.0.4' already exists
+40 error     at makeError (/Users/haoyiwen/Documents/web/pnpm-yiwen/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+40 error     at handlePromise (/Users/haoyiwen/Documents/web/pnpm-yiwen/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
+40 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+40 error     at async VersionCommand.gitCommitAndTagVersion (/Users/haoyiwen/Documents/web/pnpm-yiwen/node_modules/.pnpm/lerna@8.1.2/node_modules/lerna/dist/index.js:8541:9)
+40 error     at async VersionCommand.commitAndTagUpdates (/Users/haoyiwen/Documents/web/pnpm-yiwen/node_modules/.pnpm/lerna@8.1.2/node_modules/lerna/dist/index.js:8505:18)
+40 error     at async Promise.all (index 0)
