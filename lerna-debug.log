@@ -4,11 +4,11 @@
 35 error Progress: resolved 0, reused 1, downloaded 0, added 0
 35 error Progress: resolved 2, reused 2, downloaded 0, added 0
 35 error /Users/haoyiwen/Documents/web/pnpm-yiwen/packages/demo:
-35 error  ERR_PNPM_FETCH_404  GET https://registry.npmjs.org/@yiwen%2Ftest-add: Not Found - 404
+35 error  ERR_PNPM_FETCH_404  GET https://registry.npmjs.org/yiwen-test-add: Not Found - 404
 35 error
 35 error This error happened while installing a direct dependency of /Users/haoyiwen/Documents/web/pnpm-yiwen/packages/demo
 35 error
-35 error @yiwen/test-add is not in the npm registry, or you have no permission to fetch it.
+35 error yiwen-test-add is not in the npm registry, or you have no permission to fetch it.
 35 error
 35 error An authorization header was used: Bearer npm_[hidden]
 35 error     at makeError (/Users/haoyiwen/Documents/web/pnpm-yiwen/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
