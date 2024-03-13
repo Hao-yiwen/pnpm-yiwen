@@ -1,6 +1,6 @@
 {
   "name": "yiwen-demo",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@yiwen/test-add": "^0.0.7"
+    "yiwen-test-add": "^0.0.7"
   },
   "gitHead": "4686507b3c63b60feebb3913615ba1658de9f0d5"
 }
