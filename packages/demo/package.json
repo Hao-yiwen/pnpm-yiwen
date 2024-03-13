@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "yiwen-test-add": "^0.0.9"
+    "yiwen-test-add": "workspace:*"
   },
   "gitHead": "4686507b3c63b60feebb3913615ba1658de9f0d5"
 }

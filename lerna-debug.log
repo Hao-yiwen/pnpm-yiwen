@@ -1,18 +1,9 @@
-35 error Error: Command failed with exit code 1: pnpm install --lockfile-only --ignore-scripts
-35 error Scope: all 3 workspace projects
-35 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
-35 error Progress: resolved 0, reused 1, downloaded 0, added 0
-35 error Progress: resolved 2, reused 2, downloaded 0, added 0
-35 error /Users/haoyiwen/Documents/web/pnpm-yiwen/packages/demo:
-35 error  ERR_PNPM_FETCH_404  GET https://registry.npmjs.org/yiwen-test-add: Not Found - 404
-35 error
-35 error This error happened while installing a direct dependency of /Users/haoyiwen/Documents/web/pnpm-yiwen/packages/demo
-35 error
-35 error yiwen-test-add is not in the npm registry, or you have no permission to fetch it.
-35 error
-35 error An authorization header was used: Bearer npm_[hidden]
-35 error     at makeError (/Users/haoyiwen/Documents/web/pnpm-yiwen/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
-35 error     at handlePromise (/Users/haoyiwen/Documents/web/pnpm-yiwen/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
-35 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-35 error     at async VersionCommand.updatePackageVersions (/Users/haoyiwen/Documents/web/pnpm-yiwen/node_modules/.pnpm/lerna@8.1.2/node_modules/lerna/dist/index.js:8436:11)
-35 error     at async Promise.all (index 0)
+17 error Error: Command failed with exit code 1: git remote update
+17 error fatal: unable to access 'https://github.com/Hao-yiwen/pnpm-yiwen.git/': Failure when receiving data from the peer
+17 error     at makeError (/Users/haoyiwen/Documents/web/pnpm-yiwen/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+17 error     at module.exports.sync (/Users/haoyiwen/Documents/web/pnpm-yiwen/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:186:17)
+17 error     at Object.execSync (/Users/haoyiwen/Documents/web/pnpm-yiwen/node_modules/.pnpm/lerna@8.1.2/node_modules/lerna/dist/index.js:142:31)
+17 error     at updateRemote (/Users/haoyiwen/Documents/web/pnpm-yiwen/node_modules/.pnpm/lerna@8.1.2/node_modules/lerna/dist/index.js:7780:18)
+17 error     at isBehindUpstream (/Users/haoyiwen/Documents/web/pnpm-yiwen/node_modules/.pnpm/lerna@8.1.2/node_modules/lerna/dist/index.js:7770:3)
+17 error     at VersionCommand.initialize (/Users/haoyiwen/Documents/web/pnpm-yiwen/node_modules/.pnpm/lerna@8.1.2/node_modules/lerna/dist/index.js:8061:57)
+17 error     at VersionCommand.runCommand (/Users/haoyiwen/Documents/web/pnpm-yiwen/node_modules/.pnpm/lerna@8.1.2/node_modules/lerna/dist/index.js:1861:36)
