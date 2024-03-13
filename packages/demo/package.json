@@ -1,5 +1,5 @@
 {
-  "name": "@yiwen/demo",
+  "name": "yiwen-demo",
   "version": "0.0.7",
   "description": "",
   "main": "index.js",
@@ -12,5 +12,5 @@
   "dependencies": {
     "@yiwen/test-add": "^0.0.7"
   },
-  "gitHead": "dd1c5dbc76e3d84c1ca8d7046c72a1b824dbabc3"
+  "gitHead": "4686507b3c63b60feebb3913615ba1658de9f0d5"
 }
